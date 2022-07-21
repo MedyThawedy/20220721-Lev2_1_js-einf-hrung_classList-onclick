@@ -17,14 +17,14 @@ function fn_add_style() {
 }
 
 
-function fn_add_headline_style() {
+function changeHeadline() {
     const list = document.getElementById("idHeadline").classList;
     list.add("clsHeadline");
     const list2 = document.getElementById("idHeadline2").classList;
     list2.add("clsHeadline");
 }
 
-function fn_remove_style() {
+function resetHeadline() {
     document.getElementById("idHeadline").classList.remove("clsHeadline");
     document.getElementById("idHeadline2").classList.remove("clsHeadline");
 }
